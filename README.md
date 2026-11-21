@@ -111,8 +111,8 @@ The API is deployed as a **Docker Space on Hugging Face** (port 7860, non-root u
 | `model_artifacts.py` | Downloads the pinned model weights from Hugging Face Hub |
 | `Dockerfile` | Container build for Hugging Face Spaces |
 
-## Author
+## My role
 
 **Reygann Saycon** (Rksaycon) · [GitHub](https://github.com/Rksaycon) · [Hugging Face](https://huggingface.co/reygann)
 
-Part of a team capstone project for the Municipality of Milaor.
+I created Milaud: the original idea, the system design, and all of the machine learning. I trained the five models, improved them over several retraining rounds, and built this API. The mobile and web interfaces were built with my team as part of our capstone project for the Municipality of Milaor. The API runs on a teammate's Hugging Face Space.
