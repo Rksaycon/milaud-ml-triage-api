@@ -14,7 +14,7 @@ When a resident submits a report, this API suggests a **severity level** from th
 
 ## Models
 
-I trained all five models. The weights are published at **[huggingface.co/reygann/mylaud-ml-models](https://huggingface.co/reygann/mylaud-ml-models)**.
+I collected and labeled the training data and trained all five models. The weights are published at **[huggingface.co/reygann/mylaud-ml-models](https://huggingface.co/reygann/mylaud-ml-models)**.
 
 | Model | Architecture | Task |
 |---|---|---|
@@ -115,4 +115,4 @@ The API is deployed as a **Docker Space on Hugging Face** (port 7860, non-root u
 
 **Reygann Saycon** (Rksaycon) · [GitHub](https://github.com/Rksaycon) · [Hugging Face](https://huggingface.co/reygann)
 
-I created Milaud: the original idea, the system design, and all of the machine learning. I trained the five models, improved them over several retraining rounds, and built this API. The mobile and web interfaces were built with my team as part of our capstone project for the Municipality of Milaor. The API runs on a teammate's Hugging Face Space.
+I created Milaud: the original idea, the system design, and all of the machine learning. I collected, labeled, and prepared the training data (fire, flood, accident, and infrastructure photos and report text), trained the five models, improved them over several retraining rounds, and built this API. The mobile and web interfaces were built with my team as part of our capstone project for the Municipality of Milaor. The API runs on a teammate's Hugging Face Space.
